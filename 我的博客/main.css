@@ -1,0 +1,299 @@
+@charset "utf-8";
+/* CSS Document */
+body
+{
+	font-family:"TypeLand 康熙字典體 Trial";
+}
+nav
+{
+	font-family:"TypeLand 康熙字典體 Trial";
+	background:#666;
+	height:50px;
+}
+#banner button
+{
+	font-family:"TypeLand 康熙字典體 Trial";
+}
+#banner
+{
+	background:#999;
+	height:700px;
+}
+nav ul
+{
+	list-style:none;
+}
+nav ul li
+{
+	display:inline-block;
+	line-height:50px;
+	float:right;
+	margin-right:20px;
+}
+nav ul li a
+{
+	color:#FFF;
+	line-height:inherit;
+	text-decoration:none;
+	display:inline-block;
+	height:inherit;
+}
+nav div a
+{
+	color:#FFF;
+	font-weight:bold;
+	font-size:20px;
+	float:left;
+	margin-left:30px;
+	text-decoration:none;
+	letter-spacing:1px;
+	line-height:50px;
+}
+#banner .inner
+{
+	color:#fff;
+	max-width:350px;
+	text-align:center;
+	margin:0 auto;
+	position:relative;
+	top:160px;
+}
+#banner .inner h1
+{
+	font-family:"TypeLand 康熙字典體 Trial";
+	margin:0;
+}
+button
+{
+	border:none;
+	background:#333;
+	color:#eee;
+	padding:8px 15px;
+}
+#banner .inner .more
+{
+	margin-top:360px;
+}
+.sub-heading
+{
+	font-size:18px;
+	font-family:"TypeLand 康熙字典體 Trial";
+	margin:20px;
+}
+.content
+{
+	margin-top:0;
+	height:700px;
+	background:#339B7C;
+	color:#FFF;
+}
+.green-section
+{
+	max-width:none;
+	height:700px;
+	text-align:center;
+/*	padding:0;
+*/}
+.hr
+{
+	height:2px;
+	background:#A8EADE;
+	width:100%;
+	margin:0 auto;
+}
+.edu
+{
+	max-width:380px;
+	margin:0 auto;/*上下為0，左右自動*/
+	font-size:18px;
+}
+.course
+{
+	text-align:left;
+}
+
+/*.icon-group
+{
+	height:20px;
+	margin:100px;
+}
+怎麼這麼折磨人，朕要得肩周炎了
+.myicon
+{
+	margin:40px;
+	opacity:0.3;
+}
+.myicon:hover
+{
+	height:60px;
+	width:60px;
+	opacity:1;
+}*/
+
+.gray-section
+{
+	max-width:none;
+	height:700px;
+	background:#4B3927;
+	color:#FFF;
+}
+.article-preview
+{
+	background-color:#7C6F45;
+}
+.gray-section .img-section
+{
+	width:40%;
+}
+.img-section img
+{
+	width:100%;
+}
+
+.gray-section .text-section
+{
+	width:60%;
+}
+.article-preview > div
+{
+	float:right;
+}
+.article-preview:after
+{
+	content:'';
+	display:block;
+	clear:both;
+}
+.text-section >*
+{
+	max-width:80%;
+}
+.text-section
+{
+	position:relative;
+	top:40px;
+	left:40px;
+}
+.text-section h3
+{
+	margin-bottom:20px;
+	font-size:22px;
+}
+
+.gray-section .img1-section
+{
+	width:20.8%;
+}
+.img1-section img
+{
+	width:100%;
+}
+
+.gray-section .text1-section
+{
+	width:60%;
+}
+.article1-preview > div
+{
+	float:left;
+}
+.text1-section >*
+{
+	max-width:80%;
+}
+.text1-section
+{
+	position:relative;
+	top:40px;
+	left:50px;
+	margin:0;
+}
+.purple-section
+{
+	max-width:none;
+	height:1400px;
+	background:#620F62;
+	color:#FFF;
+}
+.heading-wrapper 
+{
+	padding:20px;
+	text-align:center;
+}
+.purple-section .heading-wrapper 
+{
+	text-align:center;
+}
+.card-group
+{
+	width:50%;
+	margin:0 auto;
+	column-count:2;
+/*	column-rule:#CCC;
+	column-rule-width:2px;*/
+	-webkit-column-count:2;
+	-moz--column-count:2;
+}
+.card
+{
+	display:block;
+	margin:0 auto;
+	width:80%;
+	min-height:140px;
+	padding:30px;
+	border:2px solid #fff;
+	opacity:0.8;
+	/*background-color:#371740;
+	opacity:0.5;*/
+}
+.card h3
+{
+	font-size:24px;
+}
+.card:first-child:hover
+{
+	background:rgba(0,0,0,0.06);
+/*	background:radial-gradient(left bottom,circle cover,#C6C 50px,red 150px);
+*/}
+.card:nth-child(3):hover
+{
+	background:rgba(0,0,0,0.1);
+}
+.card:nth-child(5):hover
+{
+	background:rgba(0,0,0,0.14);
+}
+.card:nth-child(2):hover
+{
+	background:rgba(0,0,0,0.18);
+}
+.card:nth-child(4):hover
+{
+	background:rgba(0,0,0,0.22);
+}
+.card:nth-child(6):hover
+{
+	background:rgba(0,0,0,0.26);
+}	
+<!--这里是页脚！这里是页脚！这里是页脚！这里是页脚！这里是页脚！这里是页脚！-->	
+footer
+{
+	min-height:150px;
+/*	height:50px;
+*/	background:#333;
+	color:#fff;
+	margin:1080px;
+}
+ul.share-group
+{
+	display:block;
+	width:1080px;
+	margin:0 auto;
+}  
+.share-group li
+{
+	display:inline-block;
+}
+	
+	
+	

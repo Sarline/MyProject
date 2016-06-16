@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" href="style2.css">
+	<script>
+	var curIndex=1;
+	function next(){
+		if (curIndex==6) {
+			return;
+		}
+		var curPage=document.getElementById('page'+curIndex);
+		curPage.style.webkitTransform="rotateX(-90deg)";
+		curIndex++;
+		var nextPage=document.getElementById('page'+curIndex);
+		nextPage.style.webkitTransform="rotateX(0deg)";
+	}
+
+	function prev() {
+		if (curIndex==1) 
+			return;
+			var curPage=document.getElementById('page'+curIndex);
+			curPage.style.webkitTransform="rotateX(90deg)";
+			curIndex--;
+			var prevPage=document.getElementById('page'+curIndex);
+			prevPage.style.webkitTransform="rotateX(0deg)";
+		
+	}
+	</script>
+</head>
+<body>
+	<div id="my3dspace">
+		<div id="pagegroup">
+			<div class="page" id="page1">1</div>
+			<div class="page" id="page2">2</div>
+			<div class="page" id="page3">3</div>
+			<div class="page" id="page4">4</div>
+			<div class="page" id="page5">5</div>
+			<div class="page" id="page6">6</div>
+		</div>
+	</div>
+	<div id="op">
+	<a href="javascript:next()">next</a>&nbsp;&nbsp;<a href="javascript:prev()">previous</a>
+	</div>
+</body>
+</html>
